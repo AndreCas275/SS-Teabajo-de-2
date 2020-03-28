@@ -1,0 +1,22 @@
+<div class="container p-4">
+    <div class="row">
+        {{#each libritos}}
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        {{title}} / {{author}}
+                    </div>
+                    <img src="{{image}}" class="card-img-top">
+                    <div class="card-body">
+                        <p>{{description}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="/borrar/{{id}}" class="btn btn-danger">
+                            Delete
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
