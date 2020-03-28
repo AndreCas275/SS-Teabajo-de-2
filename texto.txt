@@ -1,0 +1,6 @@
+cd D:
+cd Archivos
+cd Andre
+cd 6tosemestre
+cd git
+cd Isma-Andre
