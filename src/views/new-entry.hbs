@@ -1,0 +1,21 @@
+<div class="container p-4">
+    <form action="/new-entry" method="POST" class="card card-body">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" name="title" id="title" placeholder="Escribe el titulo del libro" autofocus>
+        </div>
+        <div class="form-group">
+            <label for="author">Author</label>
+            <input type="text" class="form-control" name="author" id="author" placeholder="Escribe el author del libro">
+        </div>
+        <div class="form-group">
+            <label for="image">Image</label>
+            <input type="text" class="form-control" name="image" id="image" placeholder="http://website.com">
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea name="description" id="description" class="form-control"rows="2"></textarea>
+        </div>
+            <input type="submit" value="Save a Book" class="btn btn-primary">
+    </form>
+</div>
